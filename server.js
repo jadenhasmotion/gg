@@ -42,6 +42,11 @@ app.post('/submit-color', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
+
+
 // Start server
 app.listen(PORT, () => {
   console.log(`✅ Server running at: http://localhost:${PORT}`);
