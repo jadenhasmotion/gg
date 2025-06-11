@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch'); // use node-fetch@2 for CommonJS
 const path = require('path');
 const app = express();
-const PORT = 3000;
+const PORT = 8000;
 
 // Your actual Discord webhook URL
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1382167795722354808/mXzdp9Bpp1Z6t3veq-EXGq0HRZbA8BH38uDh9VvzRFXxblsqAxvTtEDwo5719_i4MAHr';
